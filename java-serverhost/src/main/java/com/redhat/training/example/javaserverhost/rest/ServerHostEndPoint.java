@@ -19,7 +19,7 @@ public class ServerHostEndPoint {
     catch (Exception e) {
        e.printStackTrace();
     }
-    String msg = "I am running on server "+host+" Version 3.0 with webhook\n";
+    String msg = "I am running on server "+host+" Version 3.0 with webhooks \n";
     return Response.ok(msg).build();
   }
 }
